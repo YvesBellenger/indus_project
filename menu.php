@@ -1,6 +1,6 @@
 <?php
 
-//menu.php
+/** menu.php **/
 
 echo 'test'
 
