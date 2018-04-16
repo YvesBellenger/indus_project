@@ -1,4 +1,6 @@
-<?php 
+<?php
+
+//index.php 
 
 echo 'hello';
 
