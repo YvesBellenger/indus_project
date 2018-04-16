@@ -12,12 +12,17 @@ php:
 
 install:
 # Install PHPCS
-  - composer global require "squizlabs/php_codesniffer=*"
+  - pear install PHP_CodeSniffer
 
 script:
   - phpenv rehash
   - phpcs .
+  - docker run --rm -v $PWD:/app phpqa/security-checker security:check
 
 # configure notifications (email, IRC, campfire etc)
 notifications:
-  email: "yvesbellenger@hotmail.com"
+  email:
+    recipients:
+      - "yvesbellenger@hotmail.com"
+    on_success: never
+    on_failure: always
