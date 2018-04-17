@@ -26,3 +26,12 @@ notifications:
       - "yvesbellenger@hotmail.com"
     on_success: never
     on_failure: always
+
+# Deploy en heroku
+deploy:
+  provider: heroku
+  api_key:
+    secure: $AUTH
+  app: floating-wave-58839
+  on:
+    repo: YvesBellenger/indus_project
