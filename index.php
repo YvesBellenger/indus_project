@@ -10,5 +10,5 @@
  * @license  http://www.gnu.org/copyleft/gpl.html GNU General Public License
  * @link     https://github.com/YvesBellenger/indus_project/ * 
  */
-echo 'hello';
+echo 'App deployed';
 ?>
