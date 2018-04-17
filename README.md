@@ -11,3 +11,5 @@ Gitflow est désormais utilisé comme workflow de travail
 Review obkigatoire par un collaborateur après un pull request
 
 Veillez respecter l'utilisation des templates de pull requests ainsi que les templates d'issue 
+
+Mise en place d'une intégration continue avec Travis et Heroku pour le déploiement
